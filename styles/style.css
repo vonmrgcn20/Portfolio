@@ -21,6 +21,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img.logo {
+    height: 40px;  
+    width: auto;  
+    margin-right: 10px;
+}
 /* --- Utility & Layout --- */
 .container {
     max-width: 1280px;
@@ -61,9 +66,12 @@ section {
 }
 
 .nav-brand {
+    display: flex;
+    align-items: center;
+
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    color: white;      
     text-decoration: none;
 }
 
@@ -239,7 +247,7 @@ section {
 .card img {
     padding: 1.5rem;
     border-radius: 35px;
-    width: 200px;
+    width: 288px;
     height: 300px;
 }
 
